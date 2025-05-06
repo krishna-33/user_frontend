@@ -19,7 +19,7 @@ const UserProfile = () => {
     <Container maxWidth="sm" sx={{ mt: 4, width: "700px" }}>
       <Loader open={isLoading} />
       <Paper elevation={3} sx={{ p: 4 }}>
-        {!isLoading || isError || Object.values(data?.data).length == 0 ? (
+        {!isLoading && (isError || Object.values(data?.data).length == 0) ? (
           <NoDataDiv
             title={isError ? "Failed to Load User Details" : "No details found"}
           />
