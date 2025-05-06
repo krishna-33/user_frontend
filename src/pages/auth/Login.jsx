@@ -128,7 +128,7 @@ const LogIn = () => {
                         edge="end"
                         aria-label="toggle password visibility"
                       >
-                        {showPassword ? <VisibilityOff /> : <Visibility />}
+                        { showPassword ? <Visibility />: <VisibilityOff /> }
                       </IconButton>
                     </InputAdornment>
                   }
