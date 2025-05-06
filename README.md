@@ -1,6 +1,6 @@
 # Project setup guidelines
 
-Clone the project : git clone https://github.com/krishna-33/dynamic_form_frontend.git
+Clone the project : git clone https://github.com/krishna-33/user_frontend.git
 
 Install node-modules: npm i
 
