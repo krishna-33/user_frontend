@@ -31,10 +31,9 @@ export const api = createApi({
 
           updateUserById: builder.mutation({
             query: ({  endpoint = "" , authToken = '', body = {},}) => {
-              debugger
               return {
                 url: `${endpoint}`,
-                method: "PATCH",
+                method: "PUT",
                 headers: {
                   'Authorization': `Bearer ${authToken}`,
                 },
